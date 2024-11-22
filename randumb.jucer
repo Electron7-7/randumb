@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="hioXr7" name="randumb" projectType="audioplug" useAppConfig="0"
-              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1">
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              pluginFormats="buildVST3" pluginCharacteristicsValue="pluginProducesMidiOut,pluginWantsMidiIn"
+              pluginVST3Category="Fx,Tools" cppLanguageStandard="latest">
   <MAINGROUP id="bhrVDh" name="randumb">
     <GROUP id="{33A75C12-94E6-736E-0444-C623DAB700DD}" name="Source">
       <FILE id="GzfdMn" name="PluginProcessor.cpp" compile="1" resource="0"
